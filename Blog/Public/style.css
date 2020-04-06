@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+
+
+.news {font: Verdana 12px; color: #FF0000; }
+
+
+
+form{
+    max-width: 600px;
+    margin: auto;
+}
+
+form p{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+form input, form select{
+    padding: 0.5em 0.2em;
+    flex: 1;
+}
+
+footer{
+    flex: 0;
+}
